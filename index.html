@@ -11,7 +11,7 @@
 
         // Redirect to the app with the code as a query parameter
         if (code) {
-            window.location.href = `alcov-pinterest-auth://auth?code=${code}`;
+            window.location.href = `alcov://auth?code=${code}`;
         } else {
             document.body.innerHTML = "Error: Missing code parameter.";
         }
